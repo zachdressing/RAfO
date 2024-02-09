@@ -1,10 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Navbar } from 'flowbite-react';
-import HomeComponent from './HomeComponent';
 
-
-
-function NavbarComp() {
+function NavbarComponent() {
   return (
     <nav className="p-6 bg-grey">
       <div className="flex flex-wrap items-center justify-between ">
@@ -23,47 +19,47 @@ function NavbarComp() {
             className="flex flex-col text-white font-normal text-2xl p-4 md:p-0 mt-5 border border-gray-100 rounded-lg md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 min-w-full underline items-baseline">
             <li>
               <Link to = {'/'}
-                className="hidden lg:block  py-2 px-3 text-5xl text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
+                className="hidden lg:block  py-2 px-3 text-5xl text-white bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                 aria-current="page">Mini Challenges</Link>
             </li>
             <li>
-              <Link to = {'Hellow'}
+              <Link to = {'/Hellow'}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Hello Name</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {'/AiU'}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Add It Up</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {'/WU'}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Wake Up</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {'/GoL'}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">G or L</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {'/Mlib'}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">MadLib</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {''}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">OddOrEven</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {''}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ReverseItAlpha</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {''}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ReverseItNum</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {''}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Magic8Ball</Link>
             </li>
             <li>
-              <Link href="#"
+              <Link to = {''}
                 className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">RestaurantPicker</Link>
             </li>
           </ul>
@@ -73,4 +69,4 @@ function NavbarComp() {
   );
 }
 
-export default NavbarComp;
+export default NavbarComponent;
