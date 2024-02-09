@@ -1,5 +1,9 @@
-.App {
+.bgStuff {
   text-align: center;
+  background-image: url('../assets/bgImg.png'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100vh;
 }
 
 .App-logo {
