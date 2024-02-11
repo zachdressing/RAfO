@@ -8,7 +8,7 @@ function AiUComponent() {
     const [num2, setNum2] = useState(0);
     const [output, setOut] = useState('');
 
-    const getOutput = async () =>{
+    const getOutput = async () => {
         const response = await addAPI(num1, num2);
         setOut(response);
     }
@@ -22,10 +22,10 @@ function AiUComponent() {
                         <div class="w-full text-[48px] text-center text-white p-4">
                             <form class="flex flex-col justify-center items-center">
                                 <h1><label for="input1" class="p-5">Input:</label>
-                                <input onChange={(e) => {setNum1(e.target.value)}} type="text" className='text-black' id="input1" name="input1" placeholder="your first number"/>
+                                    <input onChange={(e) => { setNum1(e.target.value) }} type="text" className='text-black' id="input1" name="input1" placeholder="your first number" />
                                 </h1>
                                 <h1><label for="input2" class="p-5">Input:</label>
-                                <input onChange={(e) => {setNum2(e.target.value)}} type="text" className='text-black' id="input2" name="input2" placeholder="your second number"/>
+                                    <input onChange={(e) => { setNum2(e.target.value) }} type="text" className='text-black' id="input2" name="input2" placeholder="your second number" />
                                 </h1>
                             </form>
 

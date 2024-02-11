@@ -7,7 +7,7 @@ function HellowComponent() {
     const [name, setName] = useState('');
     const [output, setOut] = useState('');
 
-    const getOutput = async () =>{
+    const getOutput = async () => {
         const response = await helloAPI(name);
         setOut(response);
     }
@@ -22,7 +22,7 @@ function HellowComponent() {
                             <form className="flex flex-col items-center">
                                 <h1>
                                     <label for="input1" className="p-5">Input:</label>
-                                    <input onChange={(e) => {setName(e.target.value)}} type="text" id="input1" name="input1" placeholder="your name" className='text-black' />
+                                    <input onChange={(e) => { setName(e.target.value) }} type="text" id="input1" name="input1" placeholder="your name" className='text-black' />
                                 </h1>
                             </form>
                             <h1 id="outputLine" className='flex'>Output: <br /> <span id="output">{output}</span></h1>
