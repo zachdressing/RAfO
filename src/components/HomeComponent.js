@@ -7,7 +7,7 @@ function HomeComponent() {
         <>
             <div className='bgStuff'>
                 <NavbarComponent />
-                <div className=' ]w-full flex justify-center align-center pt-64'>
+                <div className='w-full flex justify-center align-center pt-64'>
                     <div className="bg-grey text-center text-white p-4 lg:w-3/5 px-32 text-[48px]">
                         <h1>Welcome to Zachary Dressel’s Mini Challenges.<br />
                             Please pick a page from the navbar above to start.<br />

@@ -7,7 +7,7 @@ function MLibComponent() {
         <>
             <div className='bgStuff'>
                 <NavbarComponent />
-                <div className="main w-full flex justify-center align-center pt-32">
+                <div className="w-full flex justify-center align-center pt-32">
                     <div className="bg-grey h-fit w-fot flex justify-center p-5">
                         <div className="w-full text-[48px] text-center text-white p-4">
                             <form>
