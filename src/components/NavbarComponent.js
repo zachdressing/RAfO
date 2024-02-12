@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { Flowbite } from 'flowbite-react';
+
 
 function NavbarComponent() {
   return (
